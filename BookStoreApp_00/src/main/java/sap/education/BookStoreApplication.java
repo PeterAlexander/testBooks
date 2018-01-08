@@ -30,6 +30,7 @@ public class BookStoreApplication extends SpringBootServletInitializer {
 		SpringApplication.run(BookStoreApplication.class, args);
 	}
 
+	
 	@Bean
 	public CommandLineRunner addData(final BookStoreRepository repository) {
 		return new CommandLineRunner() {
